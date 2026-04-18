@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subject mark</title>
+  <style>
+    mark {
+      background-color: #ffeb3b;
+      padding: 0 4px;
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Результаты поиска по запросу: <mark>HTML</mark></h1>
+
+  <article>
+    <p>
+      <mark>HTML</mark> (HyperText Markup Language) — это стандартный 
+      язык разметки для создания веб-страниц.
+    </p>
+
+  <article>
+    <h2>Изучаем <mark>HTML</mark> и CSS</h2>
+    <p>
+      Для создания современных сайтов нужно знать <mark>HTML</mark>, 
+      CSS и JavaScript.
+    </p>
+  </article>  
+  </article>
+</body>
+</html>
