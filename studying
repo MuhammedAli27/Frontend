@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Subject mark</title>
+</head>
+<body>
+  <h1>Результаты поиска по запросу: <mark>HTML</mark></h1>
+
+  <article>
+    <p>
+      <mark>HTML</mark> (HyperText Markup Language) — это стандартный 
+      язык разметки для создания веб-страниц.
+    </p>
+<hr>
+  <article>
+    <h2>Изучаем <mark>HTML</mark> и CSS</h2>
+    <p>
+      Для создания современных сайтов нужно знать <mark>HTML</mark>, 
+      CSS и JavaScript.
+    </p>
+    <p>Формула воды: H<sub>2</sub>O</p>
+    <p>Углекислый газ: CO<sub>2</sub></p>
+<hr>
+    <h2>Второй заголовок</h2>
+    <p>Площадь квадрата: S = a<sup>2</sup></p>
+    <p><strong>Важно: </strong> не нажимайте <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd></p>
+    <a href="https://google.com">Перейти в Google</a>
+  </article>  
+  </article>
+
+  <div class="card">
+    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/c9782b187249241.Y3JvcCwxODQxLDE0NDAsMzYwLDA.jpg" alt="Porsche 911">
+    <h3>Изначально легендарный Porsche 911, дебютировавший в 1963 году, назывался Porsche 901. 
+      Название пришлось сменить на 911 перед выходом на рынок в 1964 году из-за претензий компании Peugeot, 
+      которая закрепила за собой права на трехзначные номера с нулем посередине</h3>
+      <p>Стоимость: <span class="price">23 000 000₽</span> - <span class="old-price">7 500 000₽</span></p>
+    <button>Купить</button>
+  </div>
+</body>
+</html>
