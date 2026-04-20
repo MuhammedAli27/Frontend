@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Porsche 911</title>
+</head>
+<body>
+  <h1>Вся информамия про Porshe 911</h1>
+</body>
+
+<body>
+  <div class="card" >
+    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/c9782b187249241.Y3JvcCwxODQxLDE0NDAsMzYwLDA.jpg" alt="Porsche 911">
+    <h3>Изначально легендарный Porsche 911, дебютировавший в 1963 году, назывался Porsche 901. 
+      Название пришлось сменить на 911 перед выходом на рынок в 1964 году из-за претензий компании Peugeot, 
+      которая закрепила за собой права на трехзначные номера с нулем посередине</h3>
+      <p>Стоимость: <span class="price">23 000 000₽</span> - <span class="old-price">7 500 000₽</span></p>
+    <button>Купить</button>
+
+    <hr>
+
+    <div id="main-title">Поздравляю с покупкой!</div>
+  </div>
+
+  <p style="color: red; font-size: 20px;">Двигатель за спиной: Porsche 911 верен своей заднемоторной компоновке с 
+    оппозитным 6-цилиндровым двигателем с самого первого дня.
+  </p>
+  
+  <hr>
+
+  <h2>После покупки я планирую:</h2>
+  <ol style="font-size: 20px;">
+    <li>Устроить тест драйв</li>
+    <li>Помыть её</li>
+    <li><strong>Завести машину в гараж!!!</strong></li>
+  </ol>
+
+  <table>
+  <caption>Сотрудники отдела разработки</caption>
+  <thead>
+    <tr>
+      <th scope="col">Имя</th>
+      <th scope="col">Должность</th>
+      <th scope="col">Опыт</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Мария</td>
+      <td>Frontend</td>
+      <td>3 года</td>
+    </tr>
+    <tr>
+      <td>Алексей</td>
+      <td>Backend</td>
+      <td>5 лет</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Всего: 2 сотрудника</td>
+    </tr>
+  </tfoot>
+</table>
+
+<img src="https://www.a777aa77.ru/porsche-2/2024-porsche-911-st-992.jpg" 
+     alt="Всем привет у кого не грузит!!!" 
+     loading="lazy" 
+     width="800" height="600">
+
+     
+
+</body>
+</html>
+</body>
+</html> 
