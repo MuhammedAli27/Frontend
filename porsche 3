@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porsche 911 - Легенда</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Porsche 911</h1>
+      <p>Икона автомобильного дизайна</p>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="card">
+      <div class="image-container">
+        <img src=" https://mir-s3-cdn-cf.behance.net/projects/404/c9782b187249241.Y3JvcCwxODQxLDE0NDAsMzYwLDA.jpg" alt="Porsche 911 Turbo S">
+        <span class="badge">Легенда</span>
+      </div>
+      
+      <div class="card-content">
+        <h2>История имени</h2>
+        <p>Изначально легендарный Porsche 911, дебютировавший в 1963 году, назывался <strong>Porsche 901</strong>. Название пришлось сменить на 911 перед выходом на рынок в 1964 году из-за претензий компании Peugeot, которая закрепила за собой права на трехзначные номера с нулем посередине.</p>
+        
+        <div class="price-block">
+          <span class="old-price">7 500 000₽</span>
+          <span class="current-price">23 000 000₽</span>
+        </div>
+
+        <button id="buyBtn" class="cool-button">Купить сейчас 🏎️</button>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <section class="info-section">
+      <h2>Почему он крутой?</h2>
+      <p class="highlight-text">
+        Двигатель за спиной: Porsche 911 верен своей заднемоторной компоновке с оппозитным 6-цилиндровым двигателем с самого первого дня.
+      </p>
+
+      <h3>Мой план после покупки:</h3>
+      <ol class="custom-list">
+        <li>Устроить дикий тест-драйв</li>
+        <li>Отмыть до блеска</li>
+        <li><strong>Завести в гараж и плакать от счастья!</strong></li>
+      </ol>
+    </section>
+
+    <hr class="divider">
+
+    <section class="table-section">
+      <h3>Команда мечты (разработчики)</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Имя</th>
+            <th>Роль</th>
+            <th>Опыт</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Мария</td>
+            <td>Frontend</td>
+            <td>3 года</td>
+          </tr>
+          <tr>
+            <td>Алексей</td>
+            <td>Backend</td>
+            <td>5 лет</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Любитель Porsche.</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('buyBtn');
+    btn.addEventListener('click', () => {
+      alert('Поздравляю! Теперь ты владелец Porsche 911 (виртуально)! 🎉');
+      btn.textContent = 'Куплено! ✅';
+      btn.style.backgroundColor = '#4CAF50';
+    });
+  </script>
+
+</body>
+</html>
